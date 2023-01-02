@@ -1,0 +1,17 @@
+// BADGE
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+.badge {
+  display: inline-flex;
+  padding: $space-small-b $space-small-d;
+  border-radius: $border-radius-full;
+  vertical-align: top;
+  font-size: $font-size-small-a;
+  line-height: 1;
+  font-weight: $font-weight-bold-a;
+  color: $color-brand-100;
+  text-transform: uppercase;
+  background-color: $color-brand-800;
+}

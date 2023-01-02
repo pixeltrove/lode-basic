@@ -1,0 +1,46 @@
+// CARD
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+// Plain
+
+.card-plain {
+  padding: $space-large-b;
+  border: 0;
+}
+
+// Interactive
+
+.card-interactive {
+  position: relative;
+  transition: background-color $ease-out-100, outline $ease-out-100;
+
+  &:hover {
+    background-color: $color-neutral-900;
+  }
+
+  &:active {
+    background-color: $color-neutral-800;
+  }
+
+  .card-link {
+    color: $color-neutral-050;
+
+    &:focus-visible {
+      outline: 0;
+
+      &::before {
+        @include style-focus($border-radius-regular);
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: $z-index-100;
+    }
+  }
+}

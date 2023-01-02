@@ -1,0 +1,37 @@
+// GRID
+// -----------------------------------------------------------------------------
+
+@use "sass:list";
+@use "sass:map";
+@use "../../tokens" as *;
+@use "../../helpers/set-breakpoint" as *;
+
+.lay-grid {
+  display: grid;
+  gap: map.get($grid-gaps, "default");
+
+  @include set-breakpoint(lg) {
+    gap: map.get($grid-gaps, "lg");
+  }
+}
+
+@each $breakpoint, $column-totals in $grid-columns {
+  $prefix: if($breakpoint != "default", #{$breakpoint}\:, null);
+
+  @include set-breakpoint($breakpoint) {
+    @each $column-total in $column-totals {
+      $total-index: list.index($column-totals, $column-total);
+      $count-start: if($total-index > 1, list.nth($column-totals, $total-index - 1) + 1, 1);
+
+      .#{$prefix}lay-grid-#{$column-total} {
+        grid-template-columns: repeat($column-total, 1fr);
+      }
+
+      @for $i from $count-start through $column-total {
+        .#{$prefix}lay-grid-column-#{$i} {
+          grid-column: span #{$i};
+        }
+      }
+    }
+  }
+}

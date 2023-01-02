@@ -1,0 +1,57 @@
+// CARD
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/space-content" as *;
+@use "../../helpers/style-focus" as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: $space-regular;
+  padding: calc(#{$space-large-b} - #{$border-width-regular});
+  border: $border-width-regular solid $color-neutral-700;
+  border-radius: $border-radius-regular;
+  color: $color-neutral-050;
+  background-color: $color-white;
+
+  &-cover {
+    max-width: calc(100% + 2 * #{$space-large-b});
+    margin-right: -$space-large-b;
+    margin-left: -$space-large-b;
+    transition: outline $ease-out-100;
+
+    &:first-child {
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+      margin-top: -$space-large-b;
+    }
+
+    &:focus-visible {
+      @include style-focus($border-radius-regular);
+    }
+
+    img {
+      border-radius: inherit;
+    }
+  }
+
+  &-heading {
+    font-size: $font-size-large-b;
+    line-height: $line-height-small-c;
+  }
+
+  &-content {
+    @include space-content;
+  }
+
+  &-action-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-small-e;
+  }
+
+  &-button {
+    align-self: flex-start;
+  }
+}

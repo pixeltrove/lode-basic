@@ -1,0 +1,12 @@
+// TEXTFIELD VARIANTS
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+// Select
+
+.textfield-select {
+  &:not([size]):not([multiple]) {
+    height: calc(#{$font-size-regular} * #{$line-height-regular} + 2 * #{$space-small-d});
+  }
+}

@@ -1,0 +1,65 @@
+// GLOBAL FOOTER
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+@use "../../helpers/set-breakpoint" as *;
+
+.global-footer {
+  padding-top: $space-large-e;
+  padding-bottom: $space-large-e;
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    &-item {
+      padding-top: $space-small-a;
+      padding-bottom: $space-small-a;
+    }
+  }
+
+  &-list-horizontal {
+    flex-direction: row;
+
+    .global-footer-list-item {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      &:not(:last-of-type) {
+        margin-right: $space-regular;
+      }
+    }
+  }
+
+  &-link {
+    display: inline-block;
+    color: $color-neutral-050;
+    transition: color $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus($border-radius-small-a);
+    }
+
+    &:hover {
+      color: $color-brand-100;
+    }
+  }
+
+  &-legal {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    @include set-breakpoint(md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

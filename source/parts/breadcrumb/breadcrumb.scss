@@ -1,0 +1,38 @@
+// BREADCRUMB
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-small-b;
+  padding-left: 0;
+  list-style: none;
+
+  &-link {
+    display: inline-block;
+    color: $color-neutral-050;
+    text-decoration: $border-width-regular underline currentColor;
+    text-underline-offset: 0.25rem;
+    transition: text-decoration $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus($border-radius-small-a);
+    }
+
+    &:hover {
+      text-decoration-thickness: $border-width-thick-a;
+    }
+  }
+
+  &-icon-trail {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-left: $space-small-a;
+    vertical-align: middle;
+    fill: currentColor;
+  }
+}

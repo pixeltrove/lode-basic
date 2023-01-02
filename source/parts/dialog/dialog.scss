@@ -1,0 +1,76 @@
+// DIALOG
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/space-content" as *;
+
+.dialog {
+  z-index: $z-index-100;
+  display: none;
+  flex-direction: column;
+  gap: $space-regular;
+  overflow: auto;
+  max-width: 36rem;
+  padding: $space-large-b;
+  border-radius: $border-radius-regular;
+  margin: $space-large-b;
+  color: $color-neutral-050;
+  background-color: $color-white;
+
+  &:focus-visible {
+    outline: 0;
+  }
+
+  &.shown {
+    display: flex;
+  }
+
+  &-heading {
+    font-size: $font-size-large-c;
+    line-height: $line-height-small-c;
+  }
+
+  &-content {
+    @include space-content;
+  }
+
+  &-action-group {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: $space-small-e;
+  }
+
+  &-button {
+    align-self: flex-end;
+  }
+}
+
+// Scrim
+
+.dialog-scrim {
+  position: absolute;
+  inset: 0;
+  display: none;
+  background-color: $color-black-transparent-700;
+
+  &.shown {
+    display: block;
+  }
+}
+
+// Wrapper
+
+.dialog-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: $z-index-100;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &.shown {
+    display: flex;
+  }
+}

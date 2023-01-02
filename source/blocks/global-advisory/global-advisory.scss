@@ -1,0 +1,58 @@
+// ADVISORY
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/space-content" as *;
+@use "../../helpers/set-breakpoint" as *;
+
+.global-advisory {
+  color: $color-white;
+  background-color: $color-brand-100;
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    gap: $space-small-e;
+    padding-top: $space-regular;
+    padding-bottom: $space-regular;
+
+    @include set-breakpoint(md) {
+      flex-direction: row;
+      gap: $space-regular;
+      padding-top: $space-small-d;
+      padding-bottom: $space-small-d;
+    }
+  }
+
+  &-icon-lead {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+
+    @include set-breakpoint(md) {
+      margin-top: $space-small-b;
+      margin-bottom: $space-small-b;
+    }
+  }
+
+  &-content {
+    @include space-content;
+    @include set-breakpoint(md) {
+      margin-top: $space-small-b;
+      margin-bottom: $space-small-b;
+    }
+  }
+
+  &-action-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: $space-small-e;
+  }
+
+  .global-advisory-button {
+    align-self: start;
+    flex-shrink: 0;
+  }
+}

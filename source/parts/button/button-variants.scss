@@ -1,0 +1,254 @@
+// BUTTON VARIANTS
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+// Iconic
+
+.button-iconic {
+  padding: $space-small-d;
+
+  .button-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+// Lean and plain
+
+.button-lean,
+.button-plain {
+  color: $color-brand-100;
+  background-color: transparent;
+
+  &.activated,
+  &:hover {
+    background-color: $color-brand-900;
+  }
+
+  &:active {
+    background-color: $color-brand-800;
+  }
+}
+
+.button-lean {
+  padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-regular} - #{$border-width-regular});
+  border: $border-width-regular solid $color-brand-250;
+
+  &.button-iconic {
+    padding: calc(#{$space-small-d} - #{$border-width-regular});
+  }
+}
+
+// Small
+
+.button-small {
+  padding: $space-small-b $space-small-e;
+
+  &.button-iconic {
+    padding: $space-small-c;
+
+    .button-icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+  }
+
+  &.button-lean {
+    padding: calc(#{$space-small-b} - #{$border-width-regular}) calc(#{$space-small-e} - #{$border-width-regular});
+
+    &.button-iconic {
+      padding: calc(#{$space-small-c} - #{$border-width-regular});
+    }
+  }
+}
+
+// Positive
+
+.button-positive {
+  background-color: $color-positive-100;
+
+  &.activated,
+  &:hover {
+    background-color: $color-positive-075;
+  }
+
+  &:active {
+    background-color: $color-positive-050;
+  }
+
+  &.button-lean,
+  &.button-plain {
+    color: $color-positive-100;
+    background-color: transparent;
+
+    &.activated,
+    &:hover {
+      background-color: $color-positive-900;
+    }
+
+    &:active {
+      background-color: $color-positive-800;
+    }
+  }
+
+  &.button-lean {
+    border-color: $color-positive-250;
+  }
+}
+
+// Attentive
+
+.button-attentive {
+  background-color: $color-attentive-100;
+
+  &.activated,
+  &:hover {
+    background-color: $color-attentive-075;
+  }
+
+  &:active {
+    background-color: $color-attentive-050;
+  }
+
+  &.button-lean,
+  &.button-plain {
+    color: $color-attentive-100;
+    background-color: transparent;
+
+    &.activated,
+    &:hover {
+      background-color: $color-attentive-900;
+    }
+
+    &:active {
+      background-color: $color-attentive-800;
+    }
+  }
+
+  &.button-lean {
+    border-color: $color-attentive-250;
+  }
+}
+
+// Negative
+
+.button-negative {
+  background-color: $color-negative-100;
+
+  &.activated,
+  &:hover {
+    background-color: $color-negative-075;
+  }
+
+  &:active {
+    background-color: $color-negative-050;
+  }
+
+  &.button-lean,
+  &.button-plain {
+    color: $color-negative-100;
+    background-color: transparent;
+
+    &.activated,
+    &:hover {
+      background-color: $color-negative-900;
+    }
+
+    &:active {
+      background-color: $color-negative-800;
+    }
+  }
+
+  &.button-lean {
+    border-color: $color-negative-250;
+  }
+}
+
+// Neutral
+
+.button-neutral {
+  background-color: $color-neutral-050;
+
+  &.activated,
+  &:hover {
+    background-color: $color-neutral-025;
+  }
+
+  &:active {
+    background-color: $color-neutral-000;
+  }
+
+  &.button-lean,
+  &.button-plain {
+    color: $color-neutral-050;
+    background-color: transparent;
+
+    &.activated,
+    &:hover {
+      background-color: $color-neutral-900;
+    }
+
+    &:active {
+      background-color: $color-neutral-800;
+    }
+  }
+
+  &.button-lean {
+    border-color: $color-neutral-250;
+  }
+}
+
+// Inverse
+
+.button-inverse {
+  color: $color-brand-100;
+  background-color: $color-white;
+
+  &:focus-visible {
+    outline-color: $color-white;
+  }
+
+  &:hover {
+    background-color: $color-white-transparent-900;
+  }
+
+  &:active {
+    background-color: $color-white-transparent-825;
+  }
+
+  &.button-positive {
+    color: $color-positive-100;
+  }
+
+  &.button-attentive {
+    color: $color-attentive-100;
+  }
+
+  &.button-negative {
+    color: $color-negative-100;
+  }
+
+  &.button-neutral {
+    color: $color-neutral-050;
+  }
+
+  &.button-lean,
+  &.button-plain {
+    color: $color-white;
+    background-color: transparent;
+
+    &.activated,
+    &:hover {
+      background-color: $color-white-transparent-075;
+    }
+
+    &:active {
+      background-color: $color-white-transparent-150;
+    }
+  }
+
+  &.button-lean {
+    border-color: $color-white;
+  }
+}

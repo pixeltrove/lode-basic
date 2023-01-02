@@ -1,0 +1,17 @@
+// STYLE FOCUS
+// -----------------------------------------------------------------------------
+
+@use "sass:list";
+@use "../tokens" as *;
+
+@mixin style-focus($border-radius: null) {
+  $valid-radii: (null, $border-radius-small-a, $border-radius-regular);
+
+  @if not list.index($valid-radii, $border-radius) {
+    @error "Invalid focus border radius. Check spelling or review helper definition.";
+  }
+
+  border-radius: $border-radius;
+  outline: 2px solid $color-brand-100;
+  outline-offset: 2px;
+}

@@ -1,0 +1,32 @@
+// NOTICE VARIANTS
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+// Positive
+
+.notice-positive {
+  color: $color-positive-100;
+  background-color: $color-positive-900;
+}
+
+// Attentive
+
+.notice-attentive {
+  color: $color-attentive-100;
+  background-color: $color-attentive-900;
+}
+
+// Negative
+
+.notice-negative {
+  color: $color-negative-100;
+  background-color: $color-negative-900;
+}
+
+// Neutral
+
+.notice-neutral {
+  color: $color-neutral-050;
+  background-color: $color-neutral-900;
+}

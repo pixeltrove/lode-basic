@@ -1,0 +1,32 @@
+// BADGE VARIANTS
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+// Positive
+
+.badge-positive {
+  color: $color-positive-100;
+  background-color: $color-positive-800;
+}
+
+// Attentive
+
+.badge-attentive {
+  color: $color-attentive-100;
+  background-color: $color-attentive-800;
+}
+
+// Negative
+
+.badge-negative {
+  color: $color-negative-100;
+  background-color: $color-negative-800;
+}
+
+// Neutral
+
+.badge-neutral {
+  color: $color-neutral-050;
+  background-color: $color-neutral-800;
+}

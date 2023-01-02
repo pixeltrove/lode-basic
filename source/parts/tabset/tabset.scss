@@ -1,0 +1,57 @@
+// TABSET
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/space-content" as *;
+@use "../../helpers/transition-display" as *;
+@use "../../helpers/style-focus" as *;
+
+.tabset {
+  &-navigation {
+    display: flex;
+    padding-left: 0;
+    border-bottom: $border-width-regular solid $color-neutral-700;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  &-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $space-small-d $space-regular;
+    border: 0;
+    margin-bottom: -#{$border-width-regular};
+    color: $color-neutral-050;
+    background-color: transparent;
+    transition: border-color $ease-out-100, color $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus($border-radius-small-a);
+    }
+
+    &:hover {
+      color: $color-brand-100;
+    }
+
+    &.activated {
+      color: $color-brand-100;
+      padding-bottom: calc(#{$space-small-d} - #{$border-width-thick-a});
+      border-bottom: $border-width-thick-a solid $color-brand-100;
+    }
+  }
+
+  &-panel {
+    display: none;
+    padding-top: $space-regular;
+    padding-bottom: $space-regular;
+
+    &.shown {
+      display: block;
+    }
+  }
+
+  &-panel-content {
+    @include space-content;
+  }
+}

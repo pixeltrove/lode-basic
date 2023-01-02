@@ -1,0 +1,40 @@
+// LAYOUT
+// -----------------------------------------------------------------------------
+
+// Container
+
+$container-max-width-regular: 1240px;
+$container-max-width-large: 1384px;
+
+// Grid
+
+$grid-columns: (
+  "default": 2,
+  "sm": (
+    2,
+    3,
+  ),
+  "md": (
+    2,
+    3,
+    4,
+  ),
+  "lg": (
+    2,
+    3,
+    4,
+    6,
+  ),
+  "xl": (
+    2,
+    3,
+    4,
+    6,
+    12,
+  ),
+);
+
+$grid-gaps: (
+  "default": 1.25rem,
+  "lg": 2.5rem,
+);

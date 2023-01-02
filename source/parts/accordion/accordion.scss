@@ -1,0 +1,73 @@
+// ACCORDION
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/space-content" as *;
+@use "../../helpers/style-focus" as *;
+
+.accordion {
+  &-segment {
+    border-top: $border-width-regular solid $color-neutral-700;
+
+    &:last-child {
+      border-bottom: $border-width-regular solid $color-neutral-700;
+    }
+  }
+
+  &-slat {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: $space-small-e 0;
+    border: 0;
+    margin-top: -$border-width-regular;
+    font-size: $font-size-large-a;
+    line-height: $line-height-small-c;
+    color: $color-neutral-050;
+    background-color: transparent;
+    transition: color $ease-out-100, outline $ease-out-100;
+
+    @at-root .accordion-segment:last-child & {
+      margin-bottom: -$border-width-regular;
+    }
+
+    &:focus-visible {
+      @include style-focus($border-radius-regular);
+    }
+
+    &:hover {
+      color: $color-brand-100;
+    }
+  }
+
+  &-icon-toggle {
+    width: 1rem;
+    height: 1rem;
+    margin-left: auto;
+    fill: currentColor;
+    transition: transform $ease-out-100;
+
+    @at-root .accordion-slat.activated & {
+      transform: rotate(180deg);
+    }
+  }
+
+  &-panel {
+    display: none;
+
+    &.shown {
+      display: block;
+    }
+  }
+
+  &-panel-content {
+    @include space-content;
+    padding-top: $space-small-a;
+    padding-bottom: $space-regular;
+
+    @at-root .accordion-segment:last-child & {
+      padding-bottom: calc(#{$space-regular} - #{$border-width-regular});
+      margin-top: $border-width-regular;
+    }
+  }
+}

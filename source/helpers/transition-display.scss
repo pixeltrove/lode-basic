@@ -1,0 +1,58 @@
+// TRANSITION DISPLAY
+// -----------------------------------------------------------------------------
+
+@use "../tokens" as *;
+
+// Convert
+
+.convert-enter-regular,
+.convert-leave-regular {
+  overflow-y: hidden;
+  transition: height $ease-out-100;
+}
+
+.convert-enter-from-regular,
+.convert-leave-to-regular {
+  height: 0;
+}
+
+.convert-enter-to-regular,
+.convert-leave-from-regular {
+  height: var(--convertible-height);
+}
+
+// Fade
+
+.fade-enter-regular,
+.fade-leave-regular {
+  transition: opacity $ease-out-200;
+}
+
+.fade-enter-from-regular,
+.fade-leave-to-regular {
+  opacity: 0;
+}
+
+.fade-enter-to-regular,
+.fade-leave-from-regular {
+  opacity: 1;
+}
+
+// Slide
+
+.slide-enter-regular,
+.slide-leave-regular {
+  transition: opacity $ease-out-100, transform $ease-out-100;
+}
+
+.slide-enter-from-regular,
+.slide-leave-to-regular {
+  opacity: 0;
+  transform: translateY($translate-regular);
+}
+
+.slide-enter-to-regular,
+.slide-leave-from-regular {
+  opacity: 1;
+  transform: translateY(0);
+}

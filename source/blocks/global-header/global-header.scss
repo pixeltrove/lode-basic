@@ -1,0 +1,78 @@
+// GLOBAL HEADER
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+@use "../../helpers/set-breakpoint" as *;
+
+.global-header {
+  padding-top: $space-small-e;
+  padding-bottom: $space-small-e;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @include set-breakpoint(md) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+  }
+
+  &-brand {
+    padding-top: $space-small-b;
+    padding-bottom: $space-small-b;
+    margin-right: $space-large-c;
+    font-size: $font-size-large-c;
+    line-height: $line-height-small-c;
+    font-weight: $font-weight-bold-b;
+    color: $color-neutral-050;
+    transition: color $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus($border-radius-small-a);
+    }
+
+    &:hover {
+      color: $color-brand-100;
+    }
+  }
+
+  &-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: $space-large-c;
+      }
+    }
+
+    &-link {
+      display: inline-block;
+      padding-top: $space-small-d;
+      padding-bottom: $space-small-d;
+      color: $color-neutral-050;
+      transition: color $ease-out-100, outline $ease-out-100;
+
+      &:focus-visible {
+        @include style-focus($border-radius-small-a);
+      }
+
+      &:hover {
+        color: $color-brand-100;
+      }
+
+      &.activated {
+        padding-bottom: calc(#{$space-small-d} - #{$border-width-thick-a});
+        border-bottom: $border-width-thick-a solid $color-brand-100;
+        color: $color-brand-100;
+      }
+    }
+  }
+}

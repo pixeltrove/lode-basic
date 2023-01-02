@@ -1,0 +1,46 @@
+// BUTTON
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: $space-small-b;
+  padding: $space-small-d $space-regular;
+  border: 0;
+  border-radius: $border-radius-regular;
+  vertical-align: middle;
+  font-size: $font-size-regular;
+  line-height: $line-height-regular;
+  font-weight: $font-weight-bold-a;
+  color: $color-white;
+  background-color: $color-brand-100;
+  user-select: none;
+  transition: background-color $ease-out-100, outline $ease-out-100;
+
+  &:focus-visible {
+    @include style-focus;
+  }
+
+  &:hover,
+  &.activated {
+    background-color: $color-brand-075;
+  }
+
+  &:active {
+    background-color: $color-brand-050;
+  }
+
+  &:disabled {
+    opacity: $opacity-500;
+  }
+
+  &-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: currentColor;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "lode-basic",
+  "version": "0.1.0",
+  "description": "Powerful design system providing a robust architecture and sturdy components carefully crafted using Sass and JavaScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixeltrove/lode-basic.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "sass --style=compressed --no-source-map source/main.scss build/main.css",
+    "build:js": "esbuild --bundle --minify --format=esm source/main.js --outfile=build/main.js",
+    "watch:css": "sass --watch --style=compressed --no-source-map source/main.scss build/main.css",
+    "watch:js": "esbuild --watch --bundle --minify --format=esm source/main.js --outfile=build/main.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.2",
+    "sass": "^1.56.1"
+  }
+}

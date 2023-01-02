@@ -1,0 +1,49 @@
+// SWITCH
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+.switch {
+  width: 2.5rem;
+  height: 1.5rem;
+  border: $border-width-regular solid $color-neutral-250;
+  border-radius: $border-radius-full;
+  vertical-align: middle;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='5' fill='%233d3d3d'/></svg>");
+  background-position: left center;
+  background-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-color: $color-white;
+  cursor: pointer;
+  appearance: none;
+  transition: border-color $ease-out-100, background-position $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
+
+  &:focus-visible {
+    @include style-focus;
+  }
+
+  &:checked {
+    border-color: $color-brand-100;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='5' fill='%23fff'/></svg>");
+    background-position: right center;
+    background-color: $color-brand-100;
+  }
+
+  &:disabled {
+    opacity: $opacity-500;
+  }
+}
+
+// Label
+
+.switch-label {
+  padding-left: $space-small-a;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &.disabled {
+    opacity: $opacity-500;
+    cursor: default;
+  }
+}

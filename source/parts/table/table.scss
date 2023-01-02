@@ -1,0 +1,37 @@
+// TABLE
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+.table {
+  width: 100%;
+
+  &-caption {
+    padding: $space-small-e $space-regular;
+    text-align: left;
+    font-weight: $font-weight-bold-b;
+  }
+
+  &-header,
+  &-data {
+    padding: $space-small-e $space-regular calc(#{$space-small-e} - #{$border-width-regular});
+    border-bottom: $border-width-regular solid $color-neutral-700;
+    vertical-align: top;
+  }
+
+  &-header {
+    text-align: left;
+
+    thead & {
+      border-color: $color-neutral-250;
+    }
+
+    tbody & {
+      border-right: $border-width-regular solid $color-neutral-250;
+    }
+  }
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}

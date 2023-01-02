@@ -1,0 +1,47 @@
+// RADIO
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+.radio {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: $border-width-regular solid $color-neutral-250;
+  border-radius: $border-radius-full;
+  vertical-align: middle;
+  background-color: $color-white;
+  cursor: pointer;
+  appearance: none;
+  transition: border-color $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
+
+  &:focus-visible {
+    @include style-focus;
+  }
+
+  &:checked {
+    border-color: $color-brand-100;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='5' fill='%23fff'/></svg>");
+    background-position: center;
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-color: $color-brand-100;
+  }
+
+  &:disabled {
+    opacity: $opacity-500;
+  }
+}
+
+// Label
+
+.radio-label {
+  padding-left: $space-small-a;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &.disabled {
+    opacity: $opacity-500;
+    cursor: default;
+  }
+}

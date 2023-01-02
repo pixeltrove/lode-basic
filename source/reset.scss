@@ -1,0 +1,282 @@
+// RESET
+// -----------------------------------------------------------------------------
+
+@use "tokens" as *;
+@use "helpers/style-focus" as *;
+
+// Universal
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+// Root
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+// Body
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: $font-family-regular;
+  font-size: $font-size-regular;
+  line-height: $line-height-regular;
+  font-weight: $font-weight-regular;
+  color: $color-neutral-050;
+  overflow-wrap: break-word;
+  background-color: $color-white;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// Heading elements
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold-b;
+}
+
+h1 {
+  font-size: $font-size-large-e;
+  line-height: $line-height-small-a;
+}
+
+h2 {
+  font-size: $font-size-large-d;
+  line-height: $line-height-small-b;
+}
+
+h3 {
+  font-size: $font-size-large-c;
+  line-height: $line-height-small-c;
+}
+
+h4 {
+  font-size: $font-size-large-b;
+  line-height: $line-height-small-c;
+}
+
+h5 {
+  font-size: $font-size-large-a;
+  line-height: $line-height-small-c;
+}
+
+h6 {
+  font-size: $font-size-regular;
+  line-height: $line-height-regular;
+}
+
+// List elements
+
+dt {
+  font-weight: $font-weight-bold-b;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+// Preformatted text
+
+pre {
+  overflow: auto;
+  font-family: $font-family-monospace;
+
+  code {
+    font-size: inherit;
+  }
+}
+
+// Table
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: $font-weight-bold-b;
+  text-align: inherit;
+}
+
+// Media elements
+
+audio,
+canvas,
+iframe,
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+audio[controls],
+video[controls] {
+  &:focus-visible {
+    @include style-focus($border-radius-regular);
+  }
+}
+
+// Thematic break
+
+hr {
+  overflow: visible;
+  border: 0;
+  border-top: $border-width-thick-b solid $color-neutral-700;
+}
+
+// Anchor
+
+a {
+  text-decoration: none;
+}
+
+// Abbreviation
+
+abbr[title] {
+  cursor: help;
+}
+
+// Emphasis elements
+
+b,
+strong {
+  font-weight: $font-weight-bold-b;
+}
+
+// Code elements
+
+code,
+kbd,
+samp {
+  font-family: $font-family-monospace;
+  font-size: 0.875em;
+}
+
+kbd {
+  kbd {
+    font-size: inherit;
+  }
+}
+
+// Small
+
+small {
+  font-size: 0.875em;
+}
+
+// Subscript and superscript
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+  font-size: 0.75em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+// Form elements
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+  appearance: button;
+}
+
+::file-selector-button {
+  appearance: button;
+}
+
+[type="search"] {
+  appearance: textfield;
+
+  &::-webkit-search-decoration {
+    appearance: none;
+  }
+}
+
+select {
+  &:disabled {
+    opacity: 1;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  font-weight: $font-weight-bold-b;
+}
+
+label {
+  display: inline-block;
+}
+
+// Progress
+
+progress {
+  vertical-align: baseline;
+}
+
+// Summary
+
+summary {
+  cursor: pointer;
+
+  &:focus-visible {
+    @include style-focus($border-radius-regular);
+  }
+}
+
+// Editable content
+
+[contenteditable] {
+  &:focus-visible {
+    @include style-focus($border-radius-regular);
+  }
+}

@@ -1,0 +1,28 @@
+// ADVISORY VARIANTS
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+
+// Positive
+
+.global-advisory-positive {
+  background-color: $color-positive-100;
+}
+
+// Attentive
+
+.global-advisory-attentive {
+  background-color: $color-attentive-100;
+}
+
+// Negative
+
+.global-advisory-negative {
+  background-color: $color-negative-100;
+}
+
+// Neutral
+
+.global-advisory-neutral {
+  background-color: $color-neutral-050;
+}

@@ -1,0 +1,24 @@
+// CONTAINER
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/set-breakpoint" as *;
+
+.lay-container {
+  max-width: $container-max-width-regular;
+  padding-right: $space-large-b;
+  padding-left: $space-large-b;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include set-breakpoint(md) {
+    padding-right: $space-large-d;
+    padding-left: $space-large-d;
+  }
+}
+
+// Large
+
+.lay-container-large {
+  max-width: $container-max-width-large;
+}

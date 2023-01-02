@@ -1,0 +1,11 @@
+# System
+.DS_Store
+
+# Editor
+*.code-workspace
+
+# Node
+node_modules
+
+# Demo
+demo

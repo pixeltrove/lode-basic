@@ -1,0 +1,10 @@
+// SPACE CONTENT
+// -----------------------------------------------------------------------------
+
+@use "../tokens" as *;
+
+@mixin space-content($space: $space-regular) {
+  > *:not(:last-child) {
+    margin-bottom: $space;
+  }
+}

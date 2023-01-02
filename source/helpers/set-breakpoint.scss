@@ -1,0 +1,19 @@
+// SET BREAKPOINT
+// -----------------------------------------------------------------------------
+
+@use "sass:map";
+@use "../tokens" as *;
+
+@mixin set-breakpoint($name) {
+  @if not map.has-key($breakpoints, $name) {
+    @error "Invalid breakpoint name. Check spelling or review viewport breakpoint tokens.";
+  }
+
+  @if $name == "default" {
+    @content;
+  } @else {
+    @media screen and (min-width: map.get($breakpoints, $name)) {
+      @content;
+    }
+  }
+}

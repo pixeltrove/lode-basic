@@ -1,0 +1,33 @@
+// NAVIGATION
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/style-focus" as *;
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: $space-small-a;
+  max-width: 16.25rem;
+  padding-left: 0;
+  list-style: none;
+
+  &-link {
+    display: flex;
+    padding-top: $space-small-a;
+    padding-bottom: $space-small-a;
+    font-size: $font-size-regular;
+    line-height: $line-height-regular;
+    color: $color-neutral-050;
+    transition: color $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus($border-radius-small-a);
+    }
+
+    &:hover,
+    &.activated {
+      color: $color-brand-100;
+    }
+  }
+}

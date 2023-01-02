@@ -1,0 +1,57 @@
+// MENU
+// -----------------------------------------------------------------------------
+
+@use "../../tokens" as *;
+@use "../../helpers/transition-display" as *;
+@use "../../helpers/style-focus" as *;
+
+.menu {
+  position: absolute;
+  z-index: $z-index-100;
+  display: none;
+  flex-direction: column;
+  padding: calc(#{$space-small-c} - #{$border-width-regular});
+  border: $border-width-regular solid $color-neutral-700;
+  border-radius: $border-radius-regular;
+  margin-top: $space-small-a;
+  list-style: none;
+  background-color: $color-white;
+
+  &.shown {
+    display: flex;
+  }
+
+  &-action {
+    display: flex;
+    padding: $space-small-b $space-small-c;
+    border-radius: $border-radius-regular;
+    font-size: $font-size-regular;
+    line-height: $line-height-regular;
+    white-space: nowrap;
+    color: $color-neutral-050;
+    transition: color $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
+
+    &:focus-visible {
+      @include style-focus;
+    }
+
+    &:hover {
+      background-color: $color-neutral-900;
+    }
+
+    &:active {
+      background-color: $color-neutral-800;
+    }
+  }
+
+  &-separator {
+    border-width: $border-width-regular;
+    margin-top: $space-small-c;
+    margin-bottom: calc(#{$space-small-c} - #{$border-width-regular});
+  }
+}
+
+.menu-wrapper {
+  position: relative;
+  display: inline-block;
+}
