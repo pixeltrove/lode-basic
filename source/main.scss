@@ -3,32 +3,28 @@
 
 @use "reset";
 
-// PARTS
+// COMPONENTS
 // -----------------------------------------------------------------------------
 
-@use "./parts/accordion";
-@use "./parts/badge";
-@use "./parts/breadcrumb";
-@use "./parts/button";
-@use "./parts/card";
-@use "./parts/checkbox";
-@use "./parts/dialog";
-@use "./parts/link";
-@use "./parts/menu";
-@use "./parts/navigation";
-@use "./parts/notice";
-@use "./parts/radio";
-@use "./parts/switch";
-@use "./parts/table";
-@use "./parts/tabset";
-@use "./parts/textfield";
-
-// BLOCKS
-// -----------------------------------------------------------------------------
-
-@use "./blocks/global-advisory";
-@use "./blocks/global-footer";
-@use "./blocks/global-header";
+@use "./components/accordion";
+@use "./components/badge";
+@use "./components/breadcrumb";
+@use "./components/button";
+@use "./components/card";
+@use "./components/checkbox";
+@use "./components/dialog";
+@use "./components/global-advisory";
+@use "./components/global-footer";
+@use "./components/global-header";
+@use "./components/link";
+@use "./components/menu";
+@use "./components/navigation";
+@use "./components/notice";
+@use "./components/radio";
+@use "./components/switch";
+@use "./components/table";
+@use "./components/tabset";
+@use "./components/textfield";
 
 // LAYOUTS
 // -----------------------------------------------------------------------------
