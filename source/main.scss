@@ -12,10 +12,12 @@
 @use "./components/button";
 @use "./components/card";
 @use "./components/checkbox";
+@use "./components/container";
 @use "./components/dialog";
 @use "./components/global-advisory";
 @use "./components/global-footer";
 @use "./components/global-header";
+@use "./components/grid";
 @use "./components/link";
 @use "./components/menu";
 @use "./components/navigation";
@@ -25,9 +27,3 @@
 @use "./components/table";
 @use "./components/tabset";
 @use "./components/textfield";
-
-// LAYOUTS
-// -----------------------------------------------------------------------------
-
-@use "./layouts/container";
-@use "./layouts/grid";
