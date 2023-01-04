@@ -1,7 +1,7 @@
-// PARTS
+// COMPONENTS
 // -----------------------------------------------------------------------------
 
-import "./parts/accordion";
-import "./parts/dialog";
-import "./parts/menu";
-import "./parts/tabset";
+import "./components/accordion";
+import "./components/dialog";
+import "./components/menu";
+import "./components/tabset";
