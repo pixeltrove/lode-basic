@@ -20,12 +20,12 @@
   }
 
   &:checked {
-    border-color: $color-brand-100;
+    border-color: $color-primary-100;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='5' fill='%23fff'/></svg>");
     background-position: center;
     background-size: 1rem;
     background-repeat: no-repeat;
-    background-color: $color-brand-100;
+    background-color: $color-primary-100;
   }
 
   &:disabled {
