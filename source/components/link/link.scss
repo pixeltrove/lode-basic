@@ -6,7 +6,7 @@
 
 .link {
   display: inline-flex;
-  color: $color-primary-100;
+  color: $color-text-primary;
   text-decoration: $border-width-regular underline currentColor;
   text-underline-offset: 0.25rem;
   transition: text-decoration $ease-out-100, outline $ease-out-100;

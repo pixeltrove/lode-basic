@@ -3,12 +3,18 @@
 
 // Primary
 
-$color-primary-050: hsl(208, 100%, 28%);
-$color-primary-075: hsl(208, 100%, 32%);
-$color-primary-100: hsl(208, 100%, 36%);
-$color-primary-250: hsl(208, 76%, 54%);
-$color-primary-800: hsl(208, 92%, 92%);
-$color-primary-900: hsl(208, 92%, 96%);
+$color-text-primary: hsl(208, 100%, 36%);
+
+$color-border-primary-moderate: hsl(208, 76%, 54%);
+$color-border-primary-transparent-activated: hsl(208, 100%, 36%);
+
+$color-background-primary: hsl(208, 100%, 36%);
+$color-background-primary-hover: hsl(208, 100%, 32%);
+$color-background-primary-active: hsl(208, 100%, 28%);
+$color-background-primary-transparent-hover: hsl(208, 92%, 96%);
+$color-background-primary-transparent-active: hsl(208, 92%, 92%);
+$color-background-primary-subtle-a: hsl(208, 92%, 92%);
+$color-background-primary-subtle-b: hsl(208, 92%, 96%);
 
 // Positive
 
@@ -47,6 +53,9 @@ $color-neutral-700: hsl(240, 4%, 86%);
 $color-neutral-800: hsl(240, 4%, 92%);
 $color-neutral-900: hsl(240, 4%, 96%);
 
+$color-text-neutral-mutable-hover: hsl(208, 100%, 36%);
+$color-text-neutral-mutable-activated: hsl(208, 100%, 36%);
+
 // White
 
 $color-white: hsl(0, 0%, 100%);
@@ -58,3 +67,12 @@ $color-white-transparent-900: hsl(0, 0%, 100%, 0.92);
 // Black
 
 $color-black-transparent-700: hsl(0, 0%, 0%, 0.72);
+
+// Focus
+
+$color-outline-focus: hsl(208, 100%, 36%);
+
+// Checked
+
+$color-border-checked: hsl(208, 100%, 36%);
+$color-background-checked: hsl(208, 100%, 36%);

@@ -36,7 +36,7 @@
     }
 
     &:hover {
-      color: $color-primary-100;
+      color: $color-text-neutral-mutable-hover;
     }
   }
 
@@ -65,13 +65,13 @@
       }
 
       &:hover {
-        color: $color-primary-100;
+        color: $color-text-neutral-mutable-hover;
       }
 
       &.activated {
         padding-bottom: calc(#{$space-small-d} - #{$border-width-thick-a});
-        border-bottom: $border-width-thick-a solid $color-primary-100;
-        color: $color-primary-100;
+        border-bottom: $border-width-thick-a solid $color-border-primary-transparent-activated;
+        color: $color-text-neutral-mutable-hover;
       }
     }
   }
