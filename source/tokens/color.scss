@@ -6,7 +6,6 @@
 $color-text-primary: hsl(208, 100%, 36%);
 
 $color-border-primary-moderate: hsl(208, 76%, 54%);
-$color-border-primary-transparent-activated: hsl(208, 100%, 36%);
 
 $color-background-primary: hsl(208, 100%, 36%);
 $color-background-primary-hover: hsl(208, 100%, 32%);
@@ -68,11 +67,15 @@ $color-white-transparent-900: hsl(0, 0%, 100%, 0.92);
 
 $color-black-transparent-700: hsl(0, 0%, 0%, 0.72);
 
-// Focus
+// Activated
 
-$color-outline-focus: hsl(208, 100%, 36%);
+$color-border-activated: hsl(208, 100%, 36%);
 
 // Checked
 
 $color-border-checked: hsl(208, 100%, 36%);
 $color-background-checked: hsl(208, 100%, 36%);
+
+// Focus
+
+$color-outline-focus: hsl(208, 100%, 36%);

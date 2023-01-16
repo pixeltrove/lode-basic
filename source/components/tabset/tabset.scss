@@ -37,7 +37,7 @@
     &.activated {
       color: $color-text-neutral-mutable-activated;
       padding-bottom: calc(#{$space-small-d} - #{$border-width-thick-a});
-      border-bottom: $border-width-thick-a solid $color-border-primary-transparent-activated;
+      border-bottom: $border-width-thick-a solid $color-border-activated;
     }
   }
 
