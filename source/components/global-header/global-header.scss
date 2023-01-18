@@ -28,7 +28,7 @@
     font-size: $font-size-large-c;
     line-height: $line-height-small-c;
     font-weight: $font-weight-bold-b;
-    color: $color-neutral-050;
+    color: $color-text-neutral;
     transition: color $ease-out-100, outline $ease-out-100;
 
     &:focus-visible {
@@ -57,7 +57,7 @@
       display: inline-block;
       padding-top: $space-small-d;
       padding-bottom: $space-small-d;
-      color: $color-neutral-050;
+      color: $color-text-neutral;
       transition: color $ease-out-100, outline $ease-out-100;
 
       &:focus-visible {

@@ -59,16 +59,20 @@ $color-background-negative-transparent-active: hsl(12, 52%, 92%);
 
 // Neutral
 
-$color-neutral-000: hsl(240, 8%, 16%);
-$color-neutral-025: hsl(240, 8%, 22%);
-$color-neutral-050: hsl(240, 8%, 28%);
-$color-neutral-250: hsl(240, 6%, 56%);
-$color-neutral-700: hsl(240, 4%, 86%);
-$color-neutral-800: hsl(240, 4%, 92%);
-$color-neutral-900: hsl(240, 4%, 96%);
-
+$color-text-neutral: hsl(240, 8%, 28%);
 $color-text-neutral-mutable-hover: hsl(208, 100%, 36%);
 $color-text-neutral-mutable-activated: hsl(208, 100%, 36%);
+
+$color-border-neutral-moderate: hsl(240, 6%, 56%);
+$color-border-neutral-subtle: hsl(240, 4%, 86%);
+
+$color-background-neutral: hsl(240, 8%, 28%);
+$color-background-neutral-hover: hsl(240, 8%, 22%);
+$color-background-neutral-active: hsl(240, 8%, 16%);
+$color-background-neutral-subtle: hsl(240, 4%, 96%);
+$color-background-neutral-subtle-offset: hsl(240, 4%, 92%);
+$color-background-neutral-transparent-hover: hsl(240, 4%, 96%);
+$color-background-neutral-transparent-active: hsl(240, 4%, 92%);
 
 // White
 

@@ -37,7 +37,7 @@
 
   &-link {
     display: inline-block;
-    color: $color-neutral-050;
+    color: $color-text-neutral;
     transition: color $ease-out-100, outline $ease-out-100;
 
     &:focus-visible {

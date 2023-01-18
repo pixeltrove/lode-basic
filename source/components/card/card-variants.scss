@@ -18,15 +18,15 @@
   transition: background-color $ease-out-100, outline $ease-out-100;
 
   &:hover {
-    background-color: $color-neutral-900;
+    background-color: $color-background-neutral-transparent-hover;
   }
 
   &:active {
-    background-color: $color-neutral-800;
+    background-color: $color-background-neutral-transparent-active;
   }
 
   .card-link {
-    color: $color-neutral-050;
+    color: $color-text-neutral;
 
     &:focus-visible {
       outline: 0;
