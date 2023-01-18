@@ -6,22 +6,22 @@
 // Positive
 
 .badge-positive {
-  color: $color-positive-100;
-  background-color: $color-positive-800;
+  color: $color-text-positive;
+  background-color: $color-background-positive-subtle-offset;
 }
 
 // Attentive
 
 .badge-attentive {
-  color: $color-attentive-100;
-  background-color: $color-attentive-800;
+  color: $color-text-attentive;
+  background-color: $color-background-attentive-subtle-offset;
 }
 
 // Negative
 
 .badge-negative {
-  color: $color-negative-100;
-  background-color: $color-negative-800;
+  color: $color-text-negative;
+  background-color: $color-background-negative-subtle-offset;
 }
 
 // Neutral

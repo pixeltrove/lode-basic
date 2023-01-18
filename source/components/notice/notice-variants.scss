@@ -6,22 +6,22 @@
 // Positive
 
 .notice-positive {
-  color: $color-positive-100;
-  background-color: $color-positive-900;
+  color: $color-text-positive;
+  background-color: $color-background-positive-subtle;
 }
 
 // Attentive
 
 .notice-attentive {
-  color: $color-attentive-100;
-  background-color: $color-attentive-900;
+  color: $color-text-attentive;
+  background-color: $color-background-attentive-subtle;
 }
 
 // Negative
 
 .notice-negative {
-  color: $color-negative-100;
-  background-color: $color-negative-900;
+  color: $color-text-negative;
+  background-color: $color-background-negative-subtle;
 }
 
 // Neutral
