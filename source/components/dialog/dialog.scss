@@ -15,7 +15,7 @@
   border-radius: $border-radius-regular;
   margin: $space-large-b;
   color: $color-text-neutral;
-  background-color: $color-white;
+  background-color: $color-background-foundational;
 
   &:focus-visible {
     outline: 0;
@@ -52,7 +52,7 @@
   position: absolute;
   inset: 0;
   display: none;
-  background-color: $color-black-transparent-700;
+  background-color: $color-background-foundational-dim;
 
   &.shown {
     display: block;

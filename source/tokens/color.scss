@@ -86,13 +86,14 @@ $color-background-inverse-active: hsl(0, 0%, 100%, 0.84);
 $color-background-inverse-transparent-hover: hsl(0, 0%, 100%, 0.08);
 $color-background-inverse-transparent-active: hsl(0, 0%, 100%, 0.16);
 
+// Foundational
+
+$color-background-foundational: hsl(0, 0%, 100%);
+$color-background-foundational-dim: hsl(0, 0%, 0%, 0.72);
+
 // White
 
 $color-white: hsl(0, 0%, 100%);
-
-// Black
-
-$color-black-transparent-700: hsl(0, 0%, 0%, 0.72);
 
 // Activated
 
