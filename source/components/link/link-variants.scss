@@ -12,10 +12,10 @@
 // Inverse
 
 .link-inverse {
-  color: $color-white;
-  text-decoration-color: $color-white;
+  color: $color-text-inverse;
+  text-decoration-color: $color-text-inverse;
 
   &:focus-visible {
-    outline-color: $color-white;
+    outline-color: $color-outline-inverse-focus;
   }
 }

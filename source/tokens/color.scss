@@ -74,13 +74,21 @@ $color-background-neutral-subtle-offset: hsl(240, 4%, 92%);
 $color-background-neutral-transparent-hover: hsl(240, 4%, 96%);
 $color-background-neutral-transparent-active: hsl(240, 4%, 92%);
 
+// Inverse
+
+$color-text-inverse: hsl(0, 0%, 100%);
+
+$color-border-inverse: hsl(0, 0%, 100%);
+
+$color-background-inverse: hsl(0, 0%, 100%);
+$color-background-inverse-hover: hsl(0, 0%, 100%, 0.92);
+$color-background-inverse-active: hsl(0, 0%, 100%, 0.84);
+$color-background-inverse-transparent-hover: hsl(0, 0%, 100%, 0.08);
+$color-background-inverse-transparent-active: hsl(0, 0%, 100%, 0.16);
+
 // White
 
 $color-white: hsl(0, 0%, 100%);
-$color-white-transparent-075: hsl(0, 0%, 100%, 0.08);
-$color-white-transparent-150: hsl(0, 0%, 100%, 0.16);
-$color-white-transparent-825: hsl(0, 0%, 100%, 0.84);
-$color-white-transparent-900: hsl(0, 0%, 100%, 0.92);
 
 // Black
 
@@ -98,3 +106,4 @@ $color-background-checked: hsl(208, 100%, 36%);
 // Focus
 
 $color-outline-focus: hsl(208, 100%, 36%);
+$color-outline-inverse-focus: hsl(0, 0%, 100%);

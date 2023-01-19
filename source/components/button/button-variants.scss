@@ -203,18 +203,18 @@
 
 .button-inverse {
   color: $color-text-primary;
-  background-color: $color-white;
+  background-color: $color-background-inverse;
 
   &:focus-visible {
-    outline-color: $color-white;
+    outline-color: $color-background-inverse;
   }
 
   &:hover {
-    background-color: $color-white-transparent-900;
+    background-color: $color-background-inverse-hover;
   }
 
   &:active {
-    background-color: $color-white-transparent-825;
+    background-color: $color-background-inverse-active;
   }
 
   &.button-positive {
@@ -235,20 +235,20 @@
 
   &.button-lean,
   &.button-plain {
-    color: $color-white;
+    color: $color-text-inverse;
     background-color: transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-white-transparent-075;
+      background-color: $color-background-inverse-transparent-hover;
     }
 
     &:active {
-      background-color: $color-white-transparent-150;
+      background-color: $color-background-inverse-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-white;
+    border-color: $color-border-inverse;
   }
 }

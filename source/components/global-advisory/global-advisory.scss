@@ -6,7 +6,7 @@
 @use "../../helpers/set-breakpoint" as *;
 
 .global-advisory {
-  color: $color-white;
+  color: $color-text-inverse;
   background-color: $color-background-primary;
 
   &-inner {
