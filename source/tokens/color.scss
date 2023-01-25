@@ -64,7 +64,6 @@ $color-text-neutral-mutable-hover: hsl(208, 100%, 36%);
 $color-text-neutral-mutable-activated: hsl(208, 100%, 36%);
 
 $color-border-neutral-moderate: hsl(240, 6%, 56%);
-$color-border-neutral-subtle: hsl(240, 4%, 86%);
 
 $color-background-neutral: hsl(240, 8%, 28%);
 $color-background-neutral-hover: hsl(240, 8%, 22%);
@@ -86,14 +85,17 @@ $color-background-inverse-active: hsl(0, 0%, 100%, 0.84);
 $color-background-inverse-transparent-hover: hsl(0, 0%, 100%, 0.08);
 $color-background-inverse-transparent-active: hsl(0, 0%, 100%, 0.16);
 
-// Foundational
+// Standard
 
-$color-background-foundational: hsl(0, 0%, 100%);
-$color-background-foundational-dim: hsl(0, 0%, 0%, 0.72);
+$color-text-standard: hsl(0, 0%, 28%);
 
-// White
+$color-border-standard: hsl(0, 0%, 86%);
+$color-border-standard-moderate: hsl(240, 6%, 56%);
 
-$color-white: hsl(0, 0%, 100%);
+$color-background-standard: hsl(0, 0%, 100%);
+$color-background-standard-hover: hsl(0, 0%, 96%);
+$color-background-standard-active: hsl(0, 0%, 92%);
+$color-background-standard-backdrop: hsl(0, 0%, 0%, 0.72);
 
 // Activated
 

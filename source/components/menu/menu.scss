@@ -11,11 +11,11 @@
   display: none;
   flex-direction: column;
   padding: calc(#{$space-small-c} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-neutral-subtle;
+  border: $border-width-regular solid $color-border-standard;
   border-radius: $border-radius-regular;
   margin-top: $space-small-a;
   list-style: none;
-  background-color: $color-background-foundational;
+  background-color: $color-background-standard;
 
   &.shown {
     display: flex;
@@ -36,11 +36,11 @@
     }
 
     &:hover {
-      background-color: $color-background-neutral-transparent-hover;
+      background-color: $color-background-standard-hover;
     }
 
     &:active {
-      background-color: $color-background-neutral-transparent-active;
+      background-color: $color-background-standard-active;
     }
   }
 

@@ -8,12 +8,12 @@
   display: block;
   width: 100%;
   padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-small-e} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-neutral-moderate;
+  border: $border-width-regular solid $color-border-standard-moderate;
   border-radius: $border-radius-regular;
   font-size: $font-size-regular;
   line-height: $line-height-regular;
   color: $color-text-neutral;
-  background-color: $color-white;
+  background-color: $color-background-standard;
   transition: outline $ease-out-100, border-color $ease-out-100;
 
   &:focus-visible {

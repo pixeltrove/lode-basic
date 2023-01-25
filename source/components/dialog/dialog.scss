@@ -14,8 +14,8 @@
   padding: $space-large-b;
   border-radius: $border-radius-regular;
   margin: $space-large-b;
-  color: $color-text-neutral;
-  background-color: $color-background-foundational;
+  color: $color-text-standard;
+  background-color: $color-background-standard;
 
   &:focus-visible {
     outline: 0;
@@ -52,7 +52,7 @@
   position: absolute;
   inset: 0;
   display: none;
-  background-color: $color-background-foundational-dim;
+  background-color: $color-background-standard-backdrop;
 
   &.shown {
     display: block;

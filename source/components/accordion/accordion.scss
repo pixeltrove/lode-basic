@@ -7,10 +7,10 @@
 
 .accordion {
   &-segment {
-    border-top: $border-width-regular solid $color-border-neutral-subtle;
+    border-top: $border-width-regular solid $color-border-standard;
 
     &:last-child {
-      border-bottom: $border-width-regular solid $color-border-neutral-subtle;
+      border-bottom: $border-width-regular solid $color-border-standard;
     }
   }
 
