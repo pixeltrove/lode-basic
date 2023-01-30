@@ -18,11 +18,11 @@
   transition: background-color $ease-out-100, outline $ease-out-100;
 
   &:hover {
-    background-color: $color-background-standard-hover;
+    background-color: $color-background-regular-hover;
   }
 
   &:active {
-    background-color: $color-background-standard-active;
+    background-color: $color-background-regular-active;
   }
 
   .card-link {

@@ -7,10 +7,10 @@
 .checkbox {
   width: 1.5rem;
   height: 1.5rem;
-  border: $border-width-regular solid $color-border-standard-moderate;
+  border: $border-width-regular solid $color-border-regular-moderate;
   border-radius: $border-radius-regular;
   vertical-align: middle;
-  background-color: $color-background-standard;
+  background-color: $color-background-regular;
   cursor: pointer;
   appearance: none;
   transition: border-color $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
