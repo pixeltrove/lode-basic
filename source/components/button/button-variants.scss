@@ -181,7 +181,7 @@
 
   &.button-lean,
   &.button-plain {
-    color: $color-text-neutral;
+    color: $color-text-secondary;
     background-color: transparent;
 
     &.activated,
@@ -230,7 +230,7 @@
   }
 
   &.button-neutral {
-    color: $color-text-neutral;
+    color: $color-text-secondary;
   }
 
   &.button-lean,
