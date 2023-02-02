@@ -23,9 +23,8 @@ $color-text-inverse: hsl(0, 0%, 100%);
 $color-border-regular: hsl(0, 0%, 86%);
 $color-border-regular-moderate: hsl(240, 6%, 56%);
 
-$color-border-neutral-moderate: hsl(240, 6%, 56%);
-
 $color-border-primary-moderate: hsl(208, 76%, 54%);
+$color-border-secondary-moderate: hsl(240, 6%, 56%);
 
 $color-border-positive-moderate: hsl(138, 56%, 40%);
 $color-border-attentive-moderate: hsl(44, 56%, 42%);
@@ -43,14 +42,6 @@ $color-background-regular-hover: hsl(0, 0%, 96%);
 $color-background-regular-active: hsl(0, 0%, 92%);
 $color-background-regular-backdrop: hsl(0, 0%, 0%, 0.72);
 
-$color-background-neutral: hsl(240, 8%, 28%);
-$color-background-neutral-hover: hsl(240, 8%, 22%);
-$color-background-neutral-active: hsl(240, 8%, 16%);
-$color-background-neutral-subtle: hsl(240, 4%, 96%);
-$color-background-neutral-subtle-offset: hsl(240, 4%, 92%);
-$color-background-neutral-transparent-hover: hsl(240, 4%, 96%);
-$color-background-neutral-transparent-active: hsl(240, 4%, 92%);
-
 $color-background-primary: hsl(208, 100%, 36%);
 $color-background-primary-hover: hsl(208, 100%, 32%);
 $color-background-primary-active: hsl(208, 100%, 28%);
@@ -58,6 +49,13 @@ $color-background-primary-subtle: hsl(208, 92%, 96%);
 $color-background-primary-subtle-offset: hsl(208, 92%, 92%);
 $color-background-primary-transparent-hover: hsl(208, 92%, 96%);
 $color-background-primary-transparent-active: hsl(208, 92%, 92%);
+$color-background-secondary: hsl(240, 8%, 28%);
+$color-background-secondary-hover: hsl(240, 8%, 22%);
+$color-background-secondary-active: hsl(240, 8%, 16%);
+$color-background-secondary-subtle: hsl(240, 4%, 96%);
+$color-background-secondary-subtle-offset: hsl(240, 4%, 92%);
+$color-background-secondary-transparent-hover: hsl(240, 4%, 96%);
+$color-background-secondary-transparent-active: hsl(240, 4%, 92%);
 
 $color-background-positive: hsl(138, 100%, 22%);
 $color-background-positive-hover: hsl(138, 100%, 20%);

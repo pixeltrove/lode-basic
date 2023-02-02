@@ -168,15 +168,15 @@
 // Neutral
 
 .button-neutral {
-  background-color: $color-background-neutral;
+  background-color: $color-background-secondary;
 
   &.activated,
   &:hover {
-    background-color: $color-background-neutral-hover;
+    background-color: $color-background-secondary-hover;
   }
 
   &:active {
-    background-color: $color-background-neutral-active;
+    background-color: $color-background-secondary-active;
   }
 
   &.button-lean,
@@ -186,16 +186,16 @@
 
     &.activated,
     &:hover {
-      background-color: $color-background-neutral-transparent-hover;
+      background-color: $color-background-secondary-transparent-hover;
     }
 
     &:active {
-      background-color: $color-background-neutral-transparent-active;
+      background-color: $color-background-secondary-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-border-neutral-moderate;
+    border-color: $color-border-secondary-moderate;
   }
 }
 
