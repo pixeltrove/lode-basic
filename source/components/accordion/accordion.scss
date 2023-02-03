@@ -23,7 +23,7 @@
     margin-top: -$border-width-regular;
     font-size: $font-size-large-a;
     line-height: $line-height-small-c;
-    color: $color-text-neutral;
+    color: $color-text-regular;
     background-color: transparent;
     transition: color $ease-out-100, outline $ease-out-100;
 
@@ -36,7 +36,7 @@
     }
 
     &:hover {
-      color: $color-text-neutral-mutable-hover;
+      color: $color-text-regular-hover;
     }
   }
 

@@ -22,7 +22,7 @@
     padding: $space-small-d $space-regular;
     border: 0;
     margin-bottom: -#{$border-width-regular};
-    color: $color-text-neutral;
+    color: $color-text-regular;
     background-color: transparent;
     transition: border-color $ease-out-100, color $ease-out-100, outline $ease-out-100;
 
@@ -31,7 +31,7 @@
     }
 
     &:hover {
-      color: $color-text-neutral-mutable-hover;
+      color: $color-text-regular-hover;
     }
 
     &.activated {
