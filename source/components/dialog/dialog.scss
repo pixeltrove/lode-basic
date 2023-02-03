@@ -52,7 +52,7 @@
   position: absolute;
   inset: 0;
   display: none;
-  background-color: $color-background-regular-backdrop;
+  background-color: $color-background-backdrop;
 
   &.shown {
     display: block;

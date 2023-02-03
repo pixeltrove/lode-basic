@@ -39,7 +39,6 @@ $color-border-checked: hsl(208, 100%, 36%);
 $color-background-regular: hsl(0, 0%, 100%);
 $color-background-regular-hover: hsl(0, 0%, 96%);
 $color-background-regular-active: hsl(0, 0%, 92%);
-$color-background-regular-backdrop: hsl(0, 0%, 0%, 0.72);
 
 $color-background-primary: hsl(208, 100%, 36%);
 $color-background-primary-hover: hsl(208, 100%, 32%);
@@ -83,6 +82,8 @@ $color-background-inverse-hover: hsl(0, 0%, 100%, 0.92);
 $color-background-inverse-active: hsl(0, 0%, 100%, 0.84);
 $color-background-inverse-transparent-hover: hsl(0, 0%, 100%, 0.08);
 $color-background-inverse-transparent-active: hsl(0, 0%, 100%, 0.16);
+
+$color-background-backdrop: hsl(0, 0%, 0%, 0.72);
 
 $color-background-checked: hsl(208, 100%, 36%);
 
