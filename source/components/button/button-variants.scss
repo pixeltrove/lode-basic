@@ -33,7 +33,7 @@
 
 .button-lean {
   padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-regular} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-primary-moderate;
+  border: $border-width-regular solid $color-border-primary;
 
   &.button-iconic {
     padding: calc(#{$space-small-d} - #{$border-width-regular});
@@ -93,7 +93,7 @@
   }
 
   &.button-lean {
-    border-color: $color-border-positive-moderate;
+    border-color: $color-border-positive;
   }
 }
 
@@ -127,7 +127,7 @@
   }
 
   &.button-lean {
-    border-color: $color-border-attentive-moderate;
+    border-color: $color-border-attentive;
   }
 }
 
@@ -161,7 +161,7 @@
   }
 
   &.button-lean {
-    border-color: $color-border-negative-moderate;
+    border-color: $color-border-negative;
   }
 }
 
@@ -195,7 +195,7 @@
   }
 
   &.button-lean {
-    border-color: $color-border-secondary-moderate;
+    border-color: $color-border-secondary;
   }
 }
 

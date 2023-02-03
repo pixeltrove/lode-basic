@@ -11,7 +11,7 @@
   display: none;
   flex-direction: column;
   padding: calc(#{$space-small-c} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-regular;
+  border: $border-width-regular solid $color-border-regular-subtle;
   border-radius: $border-radius-regular;
   margin-top: $space-small-a;
   list-style: none;
