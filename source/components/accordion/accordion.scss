@@ -24,7 +24,7 @@
     font-size: $font-size-large-a;
     line-height: $line-height-small-c;
     color: $color-text-regular;
-    background-color: transparent;
+    background-color: $color-background-transparent;
     transition: color $ease-out-100, outline $ease-out-100;
 
     @at-root .accordion-segment:last-child & {
