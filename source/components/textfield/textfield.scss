@@ -8,12 +8,12 @@
   display: block;
   width: 100%;
   padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-small-e} - #{$border-width-regular});
-  border: $border-width-regular solid $color-neutral-250;
+  border: $border-width-regular solid $color-border-regular;
   border-radius: $border-radius-regular;
   font-size: $font-size-regular;
   line-height: $line-height-regular;
-  color: $color-neutral-050;
-  background-color: $color-white;
+  color: $color-text-regular;
+  background-color: $color-background-regular;
   transition: outline $ease-out-100, border-color $ease-out-100;
 
   &:focus-visible {
@@ -25,7 +25,7 @@
   }
 
   &.invalid {
-    border-color: $color-negative-250;
+    border-color: $color-border-negative;
   }
 }
 

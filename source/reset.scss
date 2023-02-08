@@ -32,9 +32,9 @@ body {
   font-size: $font-size-regular;
   line-height: $line-height-regular;
   font-weight: $font-weight-regular;
-  color: $color-neutral-050;
+  color: $color-text-regular;
   overflow-wrap: break-word;
-  background-color: $color-white;
+  background-color: $color-background-regular;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -137,7 +137,7 @@ video[controls] {
 hr {
   overflow: visible;
   border: 0;
-  border-top: $border-width-thick-b solid $color-neutral-700;
+  border-top: $border-width-thick-b solid $color-border-regular-subtle;
 }
 
 // Anchor

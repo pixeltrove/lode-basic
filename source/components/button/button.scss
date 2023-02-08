@@ -16,8 +16,8 @@
   font-size: $font-size-regular;
   line-height: $line-height-regular;
   font-weight: $font-weight-bold-a;
-  color: $color-white;
-  background-color: $color-brand-100;
+  color: $color-text-inverse;
+  background-color: $color-background-primary;
   user-select: none;
   transition: background-color $ease-out-100, outline $ease-out-100;
 
@@ -27,11 +27,11 @@
 
   &:hover,
   &.activated {
-    background-color: $color-brand-075;
+    background-color: $color-background-primary-hover;
   }
 
   &:active {
-    background-color: $color-brand-050;
+    background-color: $color-background-primary-active;
   }
 
   &:disabled {

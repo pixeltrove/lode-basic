@@ -6,8 +6,8 @@
 @use "../../helpers/set-breakpoint" as *;
 
 .global-advisory {
-  color: $color-white;
-  background-color: $color-brand-100;
+  color: $color-text-inverse;
+  background-color: $color-background-primary;
 
   &-inner {
     display: flex;

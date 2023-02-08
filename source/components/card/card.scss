@@ -10,10 +10,10 @@
   flex-direction: column;
   gap: $space-regular;
   padding: calc(#{$space-large-b} - #{$border-width-regular});
-  border: $border-width-regular solid $color-neutral-700;
+  border: $border-width-regular solid $color-border-regular-subtle;
   border-radius: $border-radius-regular;
-  color: $color-neutral-050;
-  background-color: $color-white;
+  color: $color-text-regular;
+  background-color: $color-background-regular;
 
   &-cover {
     max-width: calc(100% + 2 * #{$space-large-b});

@@ -18,22 +18,22 @@
 
 .button-lean,
 .button-plain {
-  color: $color-brand-100;
-  background-color: transparent;
+  color: $color-text-primary;
+  background-color: $color-background-transparent;
 
   &.activated,
   &:hover {
-    background-color: $color-brand-900;
+    background-color: $color-background-primary-transparent-hover;
   }
 
   &:active {
-    background-color: $color-brand-800;
+    background-color: $color-background-primary-transparent-active;
   }
 }
 
 .button-lean {
   padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-regular} - #{$border-width-regular});
-  border: $border-width-regular solid $color-brand-250;
+  border: $border-width-regular solid $color-border-primary;
 
   &.button-iconic {
     padding: calc(#{$space-small-d} - #{$border-width-regular});
@@ -66,189 +66,189 @@
 // Positive
 
 .button-positive {
-  background-color: $color-positive-100;
+  background-color: $color-background-positive;
 
   &.activated,
   &:hover {
-    background-color: $color-positive-075;
+    background-color: $color-background-positive-hover;
   }
 
   &:active {
-    background-color: $color-positive-050;
+    background-color: $color-background-positive-active;
   }
 
   &.button-lean,
   &.button-plain {
-    color: $color-positive-100;
-    background-color: transparent;
+    color: $color-text-positive;
+    background-color: $color-background-transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-positive-900;
+      background-color: $color-background-positive-transparent-hover;
     }
 
     &:active {
-      background-color: $color-positive-800;
+      background-color: $color-background-positive-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-positive-250;
+    border-color: $color-border-positive;
   }
 }
 
 // Attentive
 
 .button-attentive {
-  background-color: $color-attentive-100;
+  background-color: $color-background-attentive;
 
   &.activated,
   &:hover {
-    background-color: $color-attentive-075;
+    background-color: $color-background-attentive-hover;
   }
 
   &:active {
-    background-color: $color-attentive-050;
+    background-color: $color-background-attentive-active;
   }
 
   &.button-lean,
   &.button-plain {
-    color: $color-attentive-100;
-    background-color: transparent;
+    color: $color-text-attentive;
+    background-color: $color-background-transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-attentive-900;
+      background-color: $color-background-attentive-transparent-hover;
     }
 
     &:active {
-      background-color: $color-attentive-800;
+      background-color: $color-background-attentive-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-attentive-250;
+    border-color: $color-border-attentive;
   }
 }
 
 // Negative
 
 .button-negative {
-  background-color: $color-negative-100;
+  background-color: $color-background-negative;
 
   &.activated,
   &:hover {
-    background-color: $color-negative-075;
+    background-color: $color-background-negative-hover;
   }
 
   &:active {
-    background-color: $color-negative-050;
+    background-color: $color-background-negative-active;
   }
 
   &.button-lean,
   &.button-plain {
-    color: $color-negative-100;
-    background-color: transparent;
+    color: $color-text-negative;
+    background-color: $color-background-transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-negative-900;
+      background-color: $color-background-negative-transparent-hover;
     }
 
     &:active {
-      background-color: $color-negative-800;
+      background-color: $color-background-negative-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-negative-250;
+    border-color: $color-border-negative;
   }
 }
 
 // Neutral
 
 .button-neutral {
-  background-color: $color-neutral-050;
+  background-color: $color-background-secondary;
 
   &.activated,
   &:hover {
-    background-color: $color-neutral-025;
+    background-color: $color-background-secondary-hover;
   }
 
   &:active {
-    background-color: $color-neutral-000;
+    background-color: $color-background-secondary-active;
   }
 
   &.button-lean,
   &.button-plain {
-    color: $color-neutral-050;
-    background-color: transparent;
+    color: $color-text-secondary;
+    background-color: $color-background-transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-neutral-900;
+      background-color: $color-background-secondary-transparent-hover;
     }
 
     &:active {
-      background-color: $color-neutral-800;
+      background-color: $color-background-secondary-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-neutral-250;
+    border-color: $color-border-secondary;
   }
 }
 
 // Inverse
 
 .button-inverse {
-  color: $color-brand-100;
-  background-color: $color-white;
+  color: $color-text-primary;
+  background-color: $color-background-inverse;
 
   &:focus-visible {
-    outline-color: $color-white;
+    outline-color: $color-background-inverse;
   }
 
   &:hover {
-    background-color: $color-white-transparent-900;
+    background-color: $color-background-inverse-hover;
   }
 
   &:active {
-    background-color: $color-white-transparent-825;
+    background-color: $color-background-inverse-active;
   }
 
   &.button-positive {
-    color: $color-positive-100;
+    color: $color-text-positive;
   }
 
   &.button-attentive {
-    color: $color-attentive-100;
+    color: $color-text-attentive;
   }
 
   &.button-negative {
-    color: $color-negative-100;
+    color: $color-text-negative;
   }
 
   &.button-neutral {
-    color: $color-neutral-050;
+    color: $color-text-secondary;
   }
 
   &.button-lean,
   &.button-plain {
-    color: $color-white;
-    background-color: transparent;
+    color: $color-text-inverse;
+    background-color: $color-background-transparent;
 
     &.activated,
     &:hover {
-      background-color: $color-white-transparent-075;
+      background-color: $color-background-inverse-transparent-hover;
     }
 
     &:active {
-      background-color: $color-white-transparent-150;
+      background-color: $color-background-inverse-transparent-active;
     }
   }
 
   &.button-lean {
-    border-color: $color-white;
+    border-color: $color-border-inverse;
   }
 }

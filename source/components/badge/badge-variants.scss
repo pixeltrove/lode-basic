@@ -6,27 +6,27 @@
 // Positive
 
 .badge-positive {
-  color: $color-positive-100;
-  background-color: $color-positive-800;
+  color: $color-text-positive;
+  background-color: $color-background-positive-subtle-alt;
 }
 
 // Attentive
 
 .badge-attentive {
-  color: $color-attentive-100;
-  background-color: $color-attentive-800;
+  color: $color-text-attentive;
+  background-color: $color-background-attentive-subtle-alt;
 }
 
 // Negative
 
 .badge-negative {
-  color: $color-negative-100;
-  background-color: $color-negative-800;
+  color: $color-text-negative;
+  background-color: $color-background-negative-subtle-alt;
 }
 
 // Neutral
 
 .badge-neutral {
-  color: $color-neutral-050;
-  background-color: $color-neutral-800;
+  color: $color-text-secondary;
+  background-color: $color-background-secondary-subtle-alt;
 }

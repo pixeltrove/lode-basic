@@ -14,8 +14,8 @@
   padding: $space-large-b;
   border-radius: $border-radius-regular;
   margin: $space-large-b;
-  color: $color-neutral-050;
-  background-color: $color-white;
+  color: $color-text-regular;
+  background-color: $color-background-regular;
 
   &:focus-visible {
     outline: 0;
@@ -52,7 +52,7 @@
   position: absolute;
   inset: 0;
   display: none;
-  background-color: $color-black-transparent-700;
+  background-color: $color-background-transparent-dim;
 
   &.shown {
     display: block;
