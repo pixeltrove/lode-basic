@@ -3,7 +3,7 @@
 
 // Text
 
-$color-text-regular: hsl(0, 0%, 28%);
+$color-text-regular: hsl(240, 8%, 28%);
 $color-text-regular-hover: hsl(208, 100%, 36%);
 
 $color-text-primary: hsl(208, 100%, 36%);
@@ -20,7 +20,7 @@ $color-text-activated: hsl(208, 100%, 36%);
 // Border
 
 $color-border-regular: hsl(240, 6%, 56%);
-$color-border-regular-subtle: hsl(0, 0%, 86%);
+$color-border-regular-subtle: hsl(240, 4%, 86%);
 
 $color-border-primary: hsl(208, 76%, 54%);
 $color-border-secondary: hsl(240, 6%, 56%);
@@ -37,8 +37,8 @@ $color-border-selected: hsl(208, 100%, 36%);
 // Background
 
 $color-background-regular: hsl(0, 0%, 100%);
-$color-background-regular-hover: hsl(0, 0%, 96%);
-$color-background-regular-active: hsl(0, 0%, 92%);
+$color-background-regular-hover: hsl(240, 4%, 96%);
+$color-background-regular-active: hsl(240, 4%, 92%);
 
 $color-background-primary: hsl(208, 100%, 36%);
 $color-background-primary-hover: hsl(208, 100%, 32%);
