@@ -36,7 +36,7 @@
     }
 
     &:hover {
-      color: $color-text-regular-hover;
+      color: $color-text-regular-divergent-hover;
     }
   }
 
@@ -65,13 +65,13 @@
       }
 
       &:hover {
-        color: $color-text-regular-hover;
+        color: $color-text-regular-divergent-hover;
       }
 
       &.activated {
         padding-bottom: calc(#{$space-small-d} - #{$border-width-thick-a});
         border-bottom: $border-width-thick-a solid $color-border-activated;
-        color: $color-text-regular-hover;
+        color: $color-text-regular-divergent-hover;
       }
     }
   }
