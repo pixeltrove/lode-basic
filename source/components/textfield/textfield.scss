@@ -21,7 +21,7 @@
   }
 
   &:disabled {
-    opacity: $opacity-500;
+    border-color: $color-border-disabled;
   }
 
   &.invalid {
@@ -35,7 +35,7 @@
   cursor: pointer;
 
   &.disabled {
-    opacity: $opacity-500;
+    color: $color-text-disabled;
     cursor: default;
   }
 }

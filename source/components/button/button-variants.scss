@@ -29,6 +29,10 @@
   &:active {
     background-color: $color-background-primary-transparent-active;
   }
+
+  &.button:disabled {
+    color: $color-text-disabled;
+  }
 }
 
 .button-lean {
@@ -37,6 +41,10 @@
 
   &.button-iconic {
     padding: calc(#{$space-small-d} - #{$border-width-regular});
+  }
+
+  &.button:disabled {
+    border-color: $color-border-disabled;
   }
 }
 
@@ -233,6 +241,11 @@
     color: $color-text-secondary;
   }
 
+  &:disabled {
+    color: $color-text-disabled-inverse;
+    background-color: $color-background-disabled-inverse;
+  }
+
   &.button-lean,
   &.button-plain {
     color: $color-text-inverse;
@@ -246,9 +259,17 @@
     &:active {
       background-color: $color-background-inverse-transparent-active;
     }
+
+    &:disabled {
+      color: $color-text-disabled-inverse;
+    }
   }
 
   &.button-lean {
     border-color: $color-border-inverse;
+
+    &:disabled {
+      border-color: $color-border-disabled-inverse;
+    }
   }
 }
