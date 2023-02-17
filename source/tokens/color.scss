@@ -16,8 +16,10 @@ $color-text-attentive: $color-yellow-70;
 $color-text-negative: $color-red-70;
 
 $color-text-inverse: $color-white;
+$color-text-inverse-disabled: $color-white-transparent-60;
 
 $color-text-activated: $color-blue-70;
+$color-text-disabled: $color-black-transparent-60;
 
 // Border
 
@@ -32,8 +34,10 @@ $color-border-attentive: $color-yellow-50;
 $color-border-negative: $color-red-50;
 
 $color-border-inverse: $color-white;
+$color-border-inverse-disabled: $color-white-transparent-80;
 
 $color-border-activated: $color-blue-70;
+$color-border-disabled: $color-black-transparent-90;
 $color-border-selected: $color-blue-70;
 
 // Background
@@ -82,12 +86,14 @@ $color-background-negative-transparent-active: $color-red-10;
 $color-background-inverse: $color-white;
 $color-background-inverse-hover: $color-white-transparent-10;
 $color-background-inverse-active: $color-white-transparent-20;
+$color-background-inverse-disabled: $color-white-transparent-80;
 $color-background-inverse-transparent-hover: $color-white-transparent-90;
 $color-background-inverse-transparent-active: $color-white-transparent-80;
 
 $color-background-transparent: $color-transparent;
 $color-background-transparent-dim: $color-black-transparent-30;
 
+$color-background-disabled: $color-black-transparent-90;
 $color-background-selected: $color-blue-70;
 
 // Outline
