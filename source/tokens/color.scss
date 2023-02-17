@@ -16,10 +16,10 @@ $color-text-attentive: $color-yellow-70;
 $color-text-negative: $color-red-70;
 
 $color-text-inverse: $color-white;
-$color-text-inverse-disabled: $color-gray-40;
+$color-text-inverse-disabled: $color-white-transparent-60;
 
 $color-text-activated: $color-blue-70;
-$color-text-disabled: $color-gray-40;
+$color-text-disabled: $color-black-transparent-60;
 
 // Border
 
@@ -37,7 +37,7 @@ $color-border-inverse: $color-white;
 $color-border-inverse-disabled: $color-white-transparent-80;
 
 $color-border-activated: $color-blue-70;
-$color-border-disabled: $color-gray-10;
+$color-border-disabled: $color-black-transparent-90;
 $color-border-selected: $color-blue-70;
 
 // Background
@@ -93,7 +93,7 @@ $color-background-inverse-transparent-active: $color-white-transparent-80;
 $color-background-transparent: $color-transparent;
 $color-background-transparent-dim: $color-black-transparent-30;
 
-$color-background-disabled: $color-gray-10;
+$color-background-disabled: $color-black-transparent-90;
 $color-background-selected: $color-blue-70;
 
 // Outline
