@@ -242,8 +242,8 @@
   }
 
   &:disabled {
-    color: $color-text-disabled-inverse;
-    background-color: $color-background-disabled-inverse;
+    color: $color-text-inverse-disabled;
+    background-color: $color-background-inverse-disabled;
   }
 
   &.button-lean,
@@ -261,7 +261,7 @@
     }
 
     &:disabled {
-      color: $color-text-disabled-inverse;
+      color: $color-text-inverse-disabled;
     }
   }
 
@@ -269,7 +269,7 @@
     border-color: $color-border-inverse;
 
     &:disabled {
-      border-color: $color-border-disabled-inverse;
+      border-color: $color-border-inverse-disabled;
     }
   }
 }
