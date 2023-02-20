@@ -5,99 +5,99 @@
 
 // Text
 
-$color-text-regular: $color-gray-80;
-$color-text-regular-divergent-hover: $color-blue-70;
+$color-text-regular: $color-gray-800;
+$color-text-regular-divergent-hover: $color-blue-700;
 
-$color-text-primary: $color-blue-70;
-$color-text-secondary: $color-gray-80;
+$color-text-primary: $color-blue-700;
+$color-text-secondary: $color-gray-800;
 
-$color-text-positive: $color-green-70;
-$color-text-attentive: $color-yellow-70;
-$color-text-negative: $color-red-70;
+$color-text-positive: $color-green-700;
+$color-text-attentive: $color-yellow-700;
+$color-text-negative: $color-red-700;
 
 $color-text-inverse: $color-white;
-$color-text-inverse-disabled: $color-white-transparent-60;
+$color-text-inverse-disabled: $color-white-transparent-600;
 
-$color-text-activated: $color-blue-70;
-$color-text-disabled: $color-black-transparent-60;
+$color-text-activated: $color-blue-700;
+$color-text-disabled: $color-black-transparent-600;
 
 // Border
 
-$color-border-regular: $color-gray-60;
-$color-border-regular-subtle: $color-gray-15;
+$color-border-regular: $color-gray-600;
+$color-border-regular-subtle: $color-gray-150;
 
-$color-border-primary: $color-blue-50;
-$color-border-secondary: $color-gray-60;
+$color-border-primary: $color-blue-500;
+$color-border-secondary: $color-gray-600;
 
-$color-border-positive: $color-green-50;
-$color-border-attentive: $color-yellow-50;
-$color-border-negative: $color-red-50;
+$color-border-positive: $color-green-500;
+$color-border-attentive: $color-yellow-500;
+$color-border-negative: $color-red-500;
 
 $color-border-inverse: $color-white;
-$color-border-inverse-disabled: $color-white-transparent-80;
+$color-border-inverse-disabled: $color-white-transparent-800;
 
-$color-border-activated: $color-blue-70;
-$color-border-disabled: $color-black-transparent-90;
-$color-border-selected: $color-blue-70;
+$color-border-activated: $color-blue-700;
+$color-border-disabled: $color-black-transparent-900;
+$color-border-selected: $color-blue-700;
 
 // Background
 
 $color-background-regular: $color-white;
-$color-background-regular-hover: $color-gray-5;
-$color-background-regular-active: $color-gray-10;
+$color-background-regular-hover: $color-gray-50;
+$color-background-regular-active: $color-gray-100;
 
-$color-background-primary: $color-blue-70;
-$color-background-primary-hover: $color-blue-75;
-$color-background-primary-active: $color-blue-80;
-$color-background-primary-subtle: $color-blue-5;
-$color-background-primary-subtle-alt: $color-blue-10;
-$color-background-primary-transparent-hover: $color-blue-5;
-$color-background-primary-transparent-active: $color-blue-10;
-$color-background-secondary: $color-gray-80;
-$color-background-secondary-hover: $color-gray-85;
-$color-background-secondary-active: $color-gray-90;
-$color-background-secondary-subtle: $color-gray-5;
-$color-background-secondary-subtle-alt: $color-gray-10;
-$color-background-secondary-transparent-hover: $color-gray-5;
-$color-background-secondary-transparent-active: $color-gray-10;
+$color-background-primary: $color-blue-700;
+$color-background-primary-hover: $color-blue-750;
+$color-background-primary-active: $color-blue-800;
+$color-background-primary-subtle: $color-blue-50;
+$color-background-primary-subtle-alt: $color-blue-100;
+$color-background-primary-transparent-hover: $color-blue-50;
+$color-background-primary-transparent-active: $color-blue-100;
+$color-background-secondary: $color-gray-800;
+$color-background-secondary-hover: $color-gray-850;
+$color-background-secondary-active: $color-gray-900;
+$color-background-secondary-subtle: $color-gray-50;
+$color-background-secondary-subtle-alt: $color-gray-100;
+$color-background-secondary-transparent-hover: $color-gray-50;
+$color-background-secondary-transparent-active: $color-gray-100;
 
-$color-background-positive: $color-green-70;
-$color-background-positive-hover: $color-green-75;
-$color-background-positive-active: $color-green-80;
-$color-background-positive-subtle: $color-green-5;
-$color-background-positive-subtle-alt: $color-green-10;
-$color-background-positive-transparent-hover: $color-green-5;
-$color-background-positive-transparent-active: $color-green-10;
-$color-background-attentive: $color-yellow-70;
-$color-background-attentive-hover: $color-yellow-75;
-$color-background-attentive-active: $color-yellow-80;
-$color-background-attentive-subtle: $color-yellow-5;
-$color-background-attentive-subtle-alt: $color-yellow-10;
-$color-background-attentive-transparent-hover: $color-yellow-5;
-$color-background-attentive-transparent-active: $color-yellow-10;
-$color-background-negative: $color-red-70;
-$color-background-negative-hover: $color-red-75;
-$color-background-negative-active: $color-red-80;
-$color-background-negative-subtle: $color-red-5;
-$color-background-negative-subtle-alt: $color-red-10;
-$color-background-negative-transparent-hover: $color-red-5;
-$color-background-negative-transparent-active: $color-red-10;
+$color-background-positive: $color-green-700;
+$color-background-positive-hover: $color-green-750;
+$color-background-positive-active: $color-green-800;
+$color-background-positive-subtle: $color-green-50;
+$color-background-positive-subtle-alt: $color-green-100;
+$color-background-positive-transparent-hover: $color-green-50;
+$color-background-positive-transparent-active: $color-green-100;
+$color-background-attentive: $color-yellow-700;
+$color-background-attentive-hover: $color-yellow-750;
+$color-background-attentive-active: $color-yellow-800;
+$color-background-attentive-subtle: $color-yellow-50;
+$color-background-attentive-subtle-alt: $color-yellow-100;
+$color-background-attentive-transparent-hover: $color-yellow-50;
+$color-background-attentive-transparent-active: $color-yellow-100;
+$color-background-negative: $color-red-700;
+$color-background-negative-hover: $color-red-750;
+$color-background-negative-active: $color-red-800;
+$color-background-negative-subtle: $color-red-50;
+$color-background-negative-subtle-alt: $color-red-100;
+$color-background-negative-transparent-hover: $color-red-50;
+$color-background-negative-transparent-active: $color-red-100;
 
 $color-background-inverse: $color-white;
-$color-background-inverse-hover: $color-white-transparent-10;
-$color-background-inverse-active: $color-white-transparent-20;
-$color-background-inverse-disabled: $color-white-transparent-80;
-$color-background-inverse-transparent-hover: $color-white-transparent-90;
-$color-background-inverse-transparent-active: $color-white-transparent-80;
+$color-background-inverse-hover: $color-white-transparent-100;
+$color-background-inverse-active: $color-white-transparent-200;
+$color-background-inverse-disabled: $color-white-transparent-800;
+$color-background-inverse-transparent-hover: $color-white-transparent-900;
+$color-background-inverse-transparent-active: $color-white-transparent-800;
 
 $color-background-transparent: $color-transparent;
-$color-background-transparent-dim: $color-black-transparent-30;
+$color-background-transparent-dim: $color-black-transparent-300;
 
-$color-background-disabled: $color-black-transparent-90;
-$color-background-selected: $color-blue-70;
+$color-background-disabled: $color-black-transparent-900;
+$color-background-selected: $color-blue-700;
 
 // Outline
 
-$color-outline-focus: $color-blue-70;
+$color-outline-focus: $color-blue-700;
 
 $color-outline-inverse-focus: $color-white;
