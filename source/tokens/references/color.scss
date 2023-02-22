@@ -6,6 +6,7 @@
 $color-white: hsl(0, 0%, 100%);
 $color-white-transparent-100: hsl(0, 0%, 100%, 0.92);
 $color-white-transparent-200: hsl(0, 0%, 100%, 0.84);
+$color-white-transparent-400: hsl(0, 0%, 100%, 0.68);
 $color-white-transparent-600: hsl(0, 0%, 100%, 0.32);
 $color-white-transparent-800: hsl(0, 0%, 100%, 0.16);
 $color-white-transparent-900: hsl(0, 0%, 100%, 0.08);
@@ -15,7 +16,7 @@ $color-white-transparent-900: hsl(0, 0%, 100%, 0.08);
 $color-gray-50: hsl(0, 0%, 96%);
 $color-gray-100: hsl(0, 0%, 92%);
 $color-gray-150: hsl(0, 0%, 86%);
-$color-gray-600: hsl(0, 0%, 48%);
+$color-gray-500: hsl(0, 0%, 52%);
 $color-gray-800: hsl(0, 0%, 28%);
 $color-gray-850: hsl(0, 0%, 22%);
 $color-gray-900: hsl(0, 0%, 16%);
@@ -30,7 +31,7 @@ $color-black-transparent-900: hsl(0, 0%, 0%, 0.08);
 
 $color-red-50: hsl(12, 52%, 96%);
 $color-red-100: hsl(12, 52%, 92%);
-$color-red-500: hsl(12, 56%, 58%);
+$color-red-400: hsl(12, 56%, 64%);
 $color-red-700: hsl(12, 100%, 36%);
 $color-red-750: hsl(12, 100%, 32%);
 $color-red-800: hsl(12, 100%, 28%);
@@ -39,7 +40,7 @@ $color-red-800: hsl(12, 100%, 28%);
 
 $color-yellow-50: hsl(44, 80%, 94%);
 $color-yellow-100: hsl(44, 80%, 86%);
-$color-yellow-500: hsl(44, 56%, 42%);
+$color-yellow-400: hsl(44, 56%, 46%);
 $color-yellow-700: hsl(44, 100%, 24%);
 $color-yellow-750: hsl(44, 100%, 22%);
 $color-yellow-800: hsl(44, 100%, 18%);
@@ -48,7 +49,7 @@ $color-yellow-800: hsl(44, 100%, 18%);
 
 $color-green-50: hsl(138, 76%, 94%);
 $color-green-100: hsl(138, 76%, 86%);
-$color-green-500: hsl(138, 56%, 40%);
+$color-green-400: hsl(138, 56%, 44%);
 $color-green-700: hsl(138, 100%, 22%);
 $color-green-750: hsl(138, 100%, 20%);
 $color-green-800: hsl(138, 100%, 16%);
@@ -57,7 +58,7 @@ $color-green-800: hsl(138, 100%, 16%);
 
 $color-blue-50: hsl(208, 92%, 96%);
 $color-blue-100: hsl(208, 92%, 92%);
-$color-blue-500: hsl(208, 76%, 54%);
+$color-blue-400: hsl(208, 76%, 60%);
 $color-blue-700: hsl(208, 100%, 36%);
 $color-blue-750: hsl(208, 100%, 32%);
 $color-blue-800: hsl(208, 100%, 28%);
