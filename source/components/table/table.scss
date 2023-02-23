@@ -15,7 +15,7 @@
   &-header,
   &-data {
     padding: $space-small-e $space-regular calc(#{$space-small-e} - #{$border-width-regular});
-    border-bottom: $border-width-regular solid $color-border-regular-subtle;
+    border-bottom: $border-width-regular solid $color-border-neutral-subtle;
     vertical-align: top;
   }
 
@@ -23,11 +23,11 @@
     text-align: left;
 
     thead & {
-      border-color: $color-border-regular;
+      border-color: $color-border-neutral;
     }
 
     tbody & {
-      border-right: $border-width-regular solid $color-border-regular;
+      border-right: $border-width-regular solid $color-border-neutral;
     }
   }
 }

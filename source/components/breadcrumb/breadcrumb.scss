@@ -13,7 +13,7 @@
 
   &-link {
     display: inline-block;
-    color: $color-text-regular;
+    color: $color-text-neutral;
     text-decoration: $border-width-regular underline currentColor;
     text-underline-offset: 0.25rem;
     transition: text-decoration $ease-out-100, outline $ease-out-100;

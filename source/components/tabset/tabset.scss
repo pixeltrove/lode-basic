@@ -10,7 +10,7 @@
   &-navigation {
     display: flex;
     padding-left: 0;
-    border-bottom: $border-width-regular solid $color-border-regular-subtle;
+    border-bottom: $border-width-regular solid $color-border-neutral-subtle;
     margin-bottom: 0;
     list-style: none;
   }
@@ -22,7 +22,7 @@
     padding: $space-small-d $space-regular;
     border: 0;
     margin-bottom: -#{$border-width-regular};
-    color: $color-text-regular;
+    color: $color-text-neutral;
     background-color: $color-background-transparent;
     transition: border-color $ease-out-100, color $ease-out-100, outline $ease-out-100;
 
@@ -31,7 +31,7 @@
     }
 
     &:hover {
-      color: $color-text-regular-divergent-hover;
+      color: $color-text-neutral-divergent-hover;
     }
 
     &.activated {
