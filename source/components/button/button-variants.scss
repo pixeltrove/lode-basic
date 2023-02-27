@@ -173,40 +173,6 @@
   }
 }
 
-// Neutral
-
-.button-neutral {
-  background-color: $color-background-secondary;
-
-  &.activated,
-  &:hover {
-    background-color: $color-background-secondary-hover;
-  }
-
-  &:active {
-    background-color: $color-background-secondary-active;
-  }
-
-  &.button-lean,
-  &.button-plain {
-    color: $color-text-secondary;
-    background-color: $color-background-transparent;
-
-    &.activated,
-    &:hover {
-      background-color: $color-background-secondary-transparent-hover;
-    }
-
-    &:active {
-      background-color: $color-background-secondary-transparent-active;
-    }
-  }
-
-  &.button-lean {
-    border-color: $color-border-secondary;
-  }
-}
-
 // Inverse
 
 .button-inverse {
@@ -235,10 +201,6 @@
 
   &.button-negative {
     color: $color-text-negative;
-  }
-
-  &.button-neutral {
-    color: $color-text-secondary;
   }
 
   &:disabled {
