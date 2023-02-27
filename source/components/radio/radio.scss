@@ -7,10 +7,10 @@
 .radio {
   width: 1.5rem;
   height: 1.5rem;
-  border: $border-width-regular solid $color-border-regular;
+  border: $border-width-regular solid $color-border-neutral;
   border-radius: $border-radius-full;
   vertical-align: middle;
-  background-color: $color-background-regular;
+  background-color: $color-background-neutral;
   cursor: pointer;
   appearance: none;
   transition: border-color $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
