@@ -18,16 +18,16 @@
 
 .button-lean,
 .button-plain {
-  color: $color-text-primary;
+  color: $color-text-leading;
   background-color: $color-background-transparent;
 
   &.activated,
   &:hover {
-    background-color: $color-background-primary-transparent-hover;
+    background-color: $color-background-leading-transparent-hover;
   }
 
   &:active {
-    background-color: $color-background-primary-transparent-active;
+    background-color: $color-background-leading-transparent-active;
   }
 
   &.button:disabled {
@@ -37,7 +37,7 @@
 
 .button-lean {
   padding: calc(#{$space-small-d} - #{$border-width-regular}) calc(#{$space-regular} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-primary;
+  border: $border-width-regular solid $color-border-leading;
 
   &.button-iconic {
     padding: calc(#{$space-small-d} - #{$border-width-regular});
@@ -176,7 +176,7 @@
 // Inverse
 
 .button-inverse {
-  color: $color-text-primary;
+  color: $color-text-leading;
   background-color: $color-background-inverse;
 
   &:focus-visible {

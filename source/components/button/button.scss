@@ -17,7 +17,7 @@
   line-height: $line-height-regular;
   font-weight: $font-weight-bold-a;
   color: $color-text-inverse;
-  background-color: $color-background-primary;
+  background-color: $color-background-leading;
   user-select: none;
   transition: background-color $ease-out-100, outline $ease-out-100;
 
@@ -27,11 +27,11 @@
 
   &:hover,
   &.activated {
-    background-color: $color-background-primary-hover;
+    background-color: $color-background-leading-hover;
   }
 
   &:active {
-    background-color: $color-background-primary-active;
+    background-color: $color-background-leading-active;
   }
 
   &:disabled {
