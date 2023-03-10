@@ -11,11 +11,11 @@
   display: none;
   flex-direction: column;
   padding: calc(#{$space-small-c} - #{$border-width-regular});
-  border: $border-width-regular solid $color-border-neutral-subtle;
+  border: $border-width-regular solid $color-border-base-subtle;
   border-radius: $border-radius-regular;
   margin-top: $space-small-a;
   list-style: none;
-  background-color: $color-background-neutral;
+  background-color: $color-background-base;
 
   &.shown {
     display: flex;
@@ -28,7 +28,7 @@
     font-size: $font-size-regular;
     line-height: $line-height-regular;
     white-space: nowrap;
-    color: $color-text-neutral;
+    color: $color-text-base;
     transition: color $ease-out-100, background-color $ease-out-100, outline $ease-out-100;
 
     &:focus-visible {
@@ -36,11 +36,11 @@
     }
 
     &:hover {
-      background-color: $color-background-neutral-hover;
+      background-color: $color-background-base-hover;
     }
 
     &:active {
-      background-color: $color-background-neutral-active;
+      background-color: $color-background-base-active;
     }
   }
 
