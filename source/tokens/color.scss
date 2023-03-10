@@ -5,8 +5,8 @@
 
 // Text
 
-$color-text-neutral: $color-gray-800;
-$color-text-neutral-divergent-hover: $color-blue-700;
+$color-text-base: $color-gray-800;
+$color-text-base-divergent-hover: $color-blue-700;
 
 $color-text-leading: $color-blue-700;
 
@@ -22,8 +22,8 @@ $color-text-disabled: $color-black-transparent-600;
 
 // Border
 
-$color-border-neutral: $color-gray-500;
-$color-border-neutral-subtle: $color-gray-150;
+$color-border-base: $color-gray-500;
+$color-border-base-subtle: $color-gray-150;
 
 $color-border-leading: $color-blue-400;
 
@@ -40,9 +40,9 @@ $color-border-selected: $color-blue-700;
 
 // Background
 
-$color-background-neutral: $color-white;
-$color-background-neutral-hover: $color-gray-50;
-$color-background-neutral-active: $color-gray-100;
+$color-background-base: $color-white;
+$color-background-base-hover: $color-gray-50;
+$color-background-base-active: $color-gray-100;
 
 $color-background-leading: $color-blue-700;
 $color-background-leading-hover: $color-blue-750;

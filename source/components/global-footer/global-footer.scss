@@ -37,7 +37,7 @@
 
   &-link {
     display: inline-block;
-    color: $color-text-neutral;
+    color: $color-text-base;
     transition: color $ease-out-100, outline $ease-out-100;
 
     &:focus-visible {
@@ -45,7 +45,7 @@
     }
 
     &:hover {
-      color: $color-text-neutral-divergent-hover;
+      color: $color-text-base-divergent-hover;
     }
   }
 
